@@ -7,7 +7,20 @@
   --background_color: #333;
   --orgb: #eee;
   --red: red;
-  --border: #19a5a2;
+  --border: #fed028;
   --black: black;
   --navtext: #153661;
+  --button-text: #000;
+  --button-hover: #0a426b;
+}
+
+.card {
+  border: unset;
+  li {
+    list-style: none !important;
+    text-transform: capitalize;
+  }
+}
+h3 {
+  color: var(--navtext);
 }

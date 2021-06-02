@@ -1,1 +1,23 @@
-<p>songs works!</p>
+<section class="song-list">
+    <div class="container">
+        <h3 class="text-center">Songs List</h3>
+        <div class="row">
+            <div class="col-sm-4 mt-2" *ngFor="let song of songList" id="list-values">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{song.artist}}</h5>
+                        <ul class="card-text">
+                            <li> <strong>Album</strong> :{{song.album}}</li>
+                            <li><strong>Duration</strong> :{{song.Duration}}</li>
+                            <li> <strong>Released Date</strong>:{{song.releasedDate}}</li>
+                        </ul>
+                        <div class="button-dashboard">
+                            <app-button text="See Details">
+                            </app-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

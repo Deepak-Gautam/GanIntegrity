@@ -10,6 +10,8 @@ import { BooksComponent } from './components/books/books.component';
 import { SongsComponent } from './components/songs/songs.component';
 import { InMemoryDataService } from './services/in-memory-data.service';
 import { ButtonComponent } from './components/button/button.component';
+import { BookDetailsComponent } from './components/book-details/book-details.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';;
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +20,8 @@ import { ButtonComponent } from './components/button/button.component';
     BooksComponent,
     SongsComponent,
     ButtonComponent,
+    BookDetailsComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,

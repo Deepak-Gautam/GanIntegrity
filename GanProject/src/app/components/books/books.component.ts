@@ -31,4 +31,7 @@ export class BooksComponent implements OnInit {
       }
     );
   }
+  getId(id: number): void {
+    this._route.navigate([`/details/${id}`]);
+  }
 }
