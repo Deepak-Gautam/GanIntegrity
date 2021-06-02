@@ -1,0 +1,24 @@
+<section class="book-list">
+    <div class="container">
+        <h3 class="text-center">Books List</h3>
+        <div class="row">
+            <div class="col-sm-4 mt-2" *ngFor="let book of bookList" id="list-values">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{book.title}}</h5>
+                        <ul class="card-text">
+                            <li> <strong>Authors</strong> :{{book.authors}}</li>
+                            <li><strong>Publisher</strong> :{{book.publisher}}</li>
+                            <li> <strong>Published Date</strong>:{{book.publishedDate}}</li>
+                        </ul>
+                        <div class="button-dashboard">
+                            <!-- <app-button text="See Details" (onBtnCLick)="getId(patient.id)">
+                            </app-button> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

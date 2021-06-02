@@ -1,0 +1,14 @@
+@import url("../../../styles.scss");
+.book-list {
+  margin-top: 10px;
+  .card {
+    border: unset;
+    li {
+      list-style: none !important;
+      text-transform: capitalize;
+    }
+    h5 {
+      color: var(--navtext);
+    }
+  }
+}

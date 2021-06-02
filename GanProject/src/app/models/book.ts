@@ -8,7 +8,7 @@ type: string;
 categories: string;
 averageRating: number;
 pageCount: number;
-imageLinks: string,
-isEbook: boolean
+imageLinks: string;
+isEbook: boolean;
 
 }
