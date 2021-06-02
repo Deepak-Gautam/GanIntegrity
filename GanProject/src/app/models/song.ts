@@ -8,7 +8,7 @@ export interface Song {
   success: boolean;
   rating: number;
   composers: string;
-  Genere: string;
+  genere: string;
   producers: string;
   writers: string;
   description: string;

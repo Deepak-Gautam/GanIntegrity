@@ -12,7 +12,7 @@
                             <li> <strong>Published Date</strong>:{{book.publishedDate}}</li>
                         </ul>
                         <div class="button-dashboard">
-                            <app-button text="See Details" >
+                            <app-button text="See Details" (onBtnCLick)="getId(book.id)">
                             </app-button>
                         </div>
 

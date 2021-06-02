@@ -11,6 +11,7 @@ import { SongService } from '../../services/song.service';
 export class SongsComponent implements OnInit {
   songList: Song[] = [];
   errorMessage: string = '';
+  selectedSong!: Song;
   isLoading: boolean = false;
   constructor(private _songService: SongService, private _route: Router) {}
 
@@ -31,7 +32,7 @@ export class SongsComponent implements OnInit {
       }
     );
   }
-  getId(id:number) {
-    console.log('fsdfs');
+  onSelect(song: Song): void {
+    this.selectedSong = song;
   }
 }

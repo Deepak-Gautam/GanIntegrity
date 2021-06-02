@@ -12,7 +12,8 @@
                             <li> <strong>Released Date</strong>:{{song.releasedDate}}</li>
                         </ul>
                         <div class="button-dashboard">
-                            <app-button text="See Details">
+                            <app-button text="See Details" [class.selected]="song === selectedSong"
+                                (click)="onSelect(song)">
                             </app-button>
                         </div>
                     </div>
@@ -20,4 +21,9 @@
             </div>
         </div>
     </div>
+</section>
+<section class="song-detail">
+    <app-song-details [song]="selectedSong">
+    </app-song-details>
+
 </section>

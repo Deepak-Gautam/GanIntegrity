@@ -1,4 +1,4 @@
-<section class="book-list">
+<section class="latest-book-list">
     <div class="container">
         <h3 class="text-center">Books List</h3>
         <div class="row">
@@ -22,7 +22,7 @@
         </div>
     </div>
 </section>
-<section class="song-list">
+<section class="latest-song-list">
     <div class="container">
         <h3 class="text-center">Songs List</h3>
         <div class="row">
@@ -36,7 +36,8 @@
                             <li> <strong>Released Date</strong>:{{song.releasedDate}}</li>
                         </ul>
                         <div class="button-dashboard">
-                            <app-button text="See Details">
+                            <app-button text="See Details" [class.selected]="song === selectedSong"
+                                (click)="onSelect(song)">
                             </app-button>
                         </div>
                     </div>
@@ -44,4 +45,9 @@
             </div>
         </div>
     </div>
+</section>
+<section class="song-detail">
+    <app-song-details [song]="selectedSong" >
+    </app-song-details>
+
 </section>

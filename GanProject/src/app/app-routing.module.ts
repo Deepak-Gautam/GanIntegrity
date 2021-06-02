@@ -4,6 +4,7 @@ import { BookDetailsComponent } from './components/book-details/book-details.com
 import { BooksComponent } from './components/books/books.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { SongDetailsComponent } from './components/song-details/song-details.component';
 import { SongsComponent } from './components/songs/songs.component';
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'songs', component: SongsComponent },
   { path: 'books', component: BooksComponent },
   { path: 'bookdetail/:id', component: BookDetailsComponent },
+  { path: 'songdetail', component: SongDetailsComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 

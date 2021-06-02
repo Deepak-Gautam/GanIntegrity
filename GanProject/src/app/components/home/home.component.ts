@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   bookList: Book[] = [];
   errorMessage: string = '';
   isLoading: boolean = false;
+  selectedSong!: Song;
   songList: Song[] = [];
   constructor(
     private _songService: SongService,
@@ -39,5 +40,11 @@ export class HomeComponent implements OnInit {
   }
   getId(id: number) {
     this._route.navigate([`/bookdetail/${id}`]);
+  }
+  songDetail(id: number) {
+    this._route.navigate([`/songdetail`]);
+  }
+  onSelect(song: Song): void {
+    this.selectedSong = song;
   }
 }

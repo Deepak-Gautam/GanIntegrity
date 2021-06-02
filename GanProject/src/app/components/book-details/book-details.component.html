@@ -1,1 +1,31 @@
-<p>book-details works!</p>
+<section class="book-details">
+    <div class="container mt-5" *ngIf="book">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="{{book.imageLinks}}" alt="best-book" class=" img-responsive text-center">
+                    <div class="card-body book-history">
+                        <h5 class="card-title text-center">{{book.title}}</h5>
+                        <ul class="text-center">
+                            <li> <strong>Authors</strong> :{{book.authors}}</li>
+                            <li><strong>Publisher</strong> :{{book.publisher}}</li>
+                            <li> <strong>Published Date</strong>:{{book.publishedDate}}</li>
+                            <li> <strong>Categories</strong>:{{book.categories}}</li>
+                            <li> <strong>Page Count</strong>:{{book.pageCount}}</li>
+                            <li> <strong>Average Rating</strong>:{{book.averageRating}}</li>
+                            <li> <strong>Available in Ebook</strong>:{{book.isEbook}}</li>
+                        </ul>
+                        <div>
+                            <h1>Book Description</h1>
+                            <p>{{book.description}}</p>
+                        </div>
+                        <div>
+                            <app-button text="Back" (onBtnCLick)="goBack()"></app-button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

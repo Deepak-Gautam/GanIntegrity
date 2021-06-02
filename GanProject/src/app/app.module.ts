@@ -11,7 +11,9 @@ import { SongsComponent } from './components/songs/songs.component';
 import { InMemoryDataService } from './services/in-memory-data.service';
 import { ButtonComponent } from './components/button/button.component';
 import { BookDetailsComponent } from './components/book-details/book-details.component';
-import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';;
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { SongDetailsComponent } from './components/song-details/song-details.component';
+import { SelectComponent } from './components/select/select.component';;
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +24,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     ButtonComponent,
     BookDetailsComponent,
     PageNotFoundComponent,
+    SongDetailsComponent,
+    SelectComponent,
   ],
   imports: [
     BrowserModule,

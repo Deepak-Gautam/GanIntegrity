@@ -67,7 +67,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=KtrATnRZOlMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
         isEbook: false,
       },
       {
@@ -83,7 +83,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=T0o8uQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
         isEbook: false,
       },
       {
@@ -99,7 +99,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=T0o8uQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
         isEbook: false,
       },
       {
@@ -115,7 +115,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=xt_-qyFy2PIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
         isEbook: false,
       },
       {
@@ -131,7 +131,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=2UGSrgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
         isEbook: false,
       },
       {
@@ -147,7 +147,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=bw35nwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
         isEbook: false,
       },
       {
@@ -163,7 +163,7 @@ export class InMemoryDataService implements InMemoryDataService {
         averageRating: 5,
         pageCount: 384,
         imageLinks:
-          'http://books.google.com/books/content?id=hU8uuQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+          'http://books.google.com/books/content?id=Jr8gtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
         isEbook: false,
       },
     ];
@@ -178,14 +178,14 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
-          'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
+          'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug.',
       },
       {
         id: 2,
-        artist: 'Bon Jovi',
+        artist: 'Bon Jovfdfi',
         music: "Livin' on a prayer",
         album: 'This is for test',
         releasedDate: '2010-10-22',
@@ -194,8 +194,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
@@ -210,8 +210,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
@@ -226,8 +226,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
@@ -242,8 +242,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
@@ -258,8 +258,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
@@ -274,8 +274,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
@@ -290,14 +290,14 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
       {
         id: 9,
-        artist: 'Bon Jovi',
+        artist: 'Bon Jcxzcxczxcovi',
         music: "Livin' on a prayer",
         album: 'This is for test',
         Duration: '2.5 minutes',
@@ -306,14 +306,14 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
       {
         id: 10,
-        artist: 'Bon Jovi',
+        artist: 'Bon Jocxcvi',
         music: "Livin' on a prayer",
         album: 'This is for test',
         Duration: '2.5 minutes',
@@ -322,8 +322,8 @@ export class InMemoryDataService implements InMemoryDataService {
         rating: 5,
         composers: 'Bon Jovi',
         genere: 'Rock',
-        Producers: 'Taylor Swift',
-        writer: 'Alessandro Trincone',
+        producers: 'Taylor Swift',
+        writers: 'Alessandro Trincone',
         description:
           'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
       },
