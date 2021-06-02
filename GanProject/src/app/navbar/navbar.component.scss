@@ -1,15 +1,30 @@
-.homepage {
-  padding: 23px 0;
+@import "../../styles.scss";
+
+section.homepage {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
-  background: #fff;
-  box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
-}
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: top;
+  background: var(--white);
+  img {
+    width: 230px;
+    float: left;
+    line-height: 0;
+    position: relative;
+  }
+  .navbar-nav {
+    a {
+      padding-right: 25px !important;
+      padding-left: 25px !important;
+      color: var(--navtext);
+      font-size: 18px;
+    }
+  }
+  .navbar-light .navbar-toggler {
+    background-color: white !important;
+    border-color: unset;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: none;
+  }
 }

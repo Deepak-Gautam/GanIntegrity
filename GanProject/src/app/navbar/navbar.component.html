@@ -1,20 +1,23 @@
 <section class="homepage">
-<nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
-    <div class="container-fluid">
-        <a class="navbar-brand" [routerLink]="['/']"><img
-                src="https://61rh21x5atr4dm85544ylkn1-wpengine.netdna-ssl.com/wp-content/themes/ganintegrity/images/logo-main.png"
-                alt="GAN Integrity"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-                <a class="nav-link" [routerLink]="['/about']">About Us</a>
-                <a class="nav-link" href="#">Music</a>
-                <a class="nav-link"> Books</a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container-fluid">
+                <a class="navbar-brand" [routerLink]="['/home']"><img
+                        src="https://61rh21x5atr4dm85544ylkn1-wpengine.netdna-ssl.com/wp-content/themes/ganintegrity/images/logo-main.png"
+                        alt="GAN Integrity"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link" [routerLink]="['/about']">About Us</a>
+                        <a class="nav-link" [routerLink]="['/books']" >Music</a>
+                        <a class="nav-link" [routerLink]="['/songs']" > Books</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </div>
-</nav>
 </section>
