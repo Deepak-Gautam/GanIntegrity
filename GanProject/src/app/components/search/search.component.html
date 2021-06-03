@@ -1,23 +1,21 @@
-<div>
-    <select class="custom-select" (change)="selectOption()" [(ngModel)]="selected">
-        <option value="" disabled>Choose category</option>
-        <option *ngFor="let cat of Category" [ngValue]="cat">{{cat}}</option>
-    </select>
-    <div class="search-book">
-        <input class="search-input text-center" placeholder='search by name ' #searchBox id="search-box"
-            (input)="search(searchBox.value)">
-        <ul class="search-query" *ngIf="isBookSelected">
-            <li *ngFor="let book of books$ | async">
-                <a [routerLink]="['/bookdetails', book.id]">{{book.title}}</a>
-            </li>
-        </ul>
-        <ul class="search-query" *ngIf="isSongSelected">
-            <li *ngFor="let song of song$ | async">
-                <a text="{{song.artist}}" [class.selected]="song === selectedSong" (click)="onSelect(song)">
-                </a>
-            </li>
-        </ul>
-    </div>
+<select class="custom-select" (change)="selectOption()" [(ngModel)]="selected">
+    <option value="" disabled>Choose category</option>
+    <option *ngFor="let cat of Category" [ngValue]="cat">{{cat}}</option>
+</select>
+<div class="search-book">
+    <input class="search-input text-center" placeholder='search by name ' #searchBox id="search-box"
+        (input)="search(searchBox.value)">
+    <ul class="search-query" *ngIf="isBookSelected">
+        <li *ngFor="let book of books$ | async">
+            <a [routerLink]="['/bookdetails', book.id]">{{book.title}}</a>
+        </li>
+    </ul>
+    <ul class="search-query" *ngIf="isSongSelected">
+        <li *ngFor="let song of song$ | async">
+            <a text="{{song.artist}}" [class.selected]="song === selectedSong" (click)="onSelect(song)">
+            </a>
+        </li>
+    </ul>
 </div>
 <section class="song-detail">
     <app-song-details [song]="selectedSong">

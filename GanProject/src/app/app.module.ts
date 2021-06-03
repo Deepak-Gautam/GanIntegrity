@@ -14,7 +14,7 @@ import { BookDetailsComponent } from './components/book-details/book-details.com
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SongDetailsComponent } from './components/song-details/song-details.component';
 import { Searchomponent } from './components/search/search.component';
-// import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +35,9 @@ import { Searchomponent } from './components/search/search.component';
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
       dataEncapsulation: false,
     }),
+    FormsModule,
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
