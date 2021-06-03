@@ -1,12 +1,20 @@
 import { TestBed } from '@angular/core/testing';
-
+import {
+  HttpClientTestingModule,
+  HttpTestingController,
+} from '@angular/common/http/testing';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { BookService } from './book.service';
 
 describe('BookService', () => {
+  let httpClient: HttpClient;
+  let httpTestingController: HttpTestingController;
   let service: BookService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({ imports: [HttpClientTestingModule] });
+    httpClient = TestBed.get(HttpClient);
+    httpTestingController = TestBed.get(HttpTestingController);
     service = TestBed.inject(BookService);
   });
 

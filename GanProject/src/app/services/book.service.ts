@@ -35,5 +35,15 @@ export class BookService {
         catchError(this._errorhandling.handleError<Book>(`getbook id=${id}`))
       );
   }
-
+  searchBook(value: string): Observable<Book[]> {
+    if (!value.trim) {
+      return of([]);
+    } else {
+      return this._http
+        .get<Book[]>(`${this.baseUrl}/?title=${value}`)
+        .pipe(
+          catchError(this._errorhandling.handleError<Book[]>('searchBook', []))
+        );
+    }
+  }
 }

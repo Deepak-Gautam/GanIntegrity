@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'songs', component: SongsComponent },
   { path: 'books', component: BooksComponent },
-  { path: 'bookdetail/:id', component: BookDetailsComponent },
+  { path: 'bookdetails/:id', component: BookDetailsComponent },
   { path: 'songdetail', component: SongDetailsComponent },
   { path: '**', component: PageNotFoundComponent },
 ];

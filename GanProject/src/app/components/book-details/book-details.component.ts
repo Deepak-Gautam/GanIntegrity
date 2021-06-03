@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../../models/book';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { BookService } from '../../services/book.service';
-import { Location } from '@angular/common';
 @Component({
   selector: 'app-book-details',
   templateUrl: './book-details.component.html',
@@ -13,7 +12,7 @@ export class BookDetailsComponent implements OnInit {
   constructor(
     private _bookService: BookService,
     private _route: ActivatedRoute,
-    private _location: Location
+    private _router: Router
   ) {}
 
   ngOnInit(): void {
@@ -25,6 +24,6 @@ export class BookDetailsComponent implements OnInit {
     console.log(this.book);
   }
   goBack() {
-    this._location.back();
+    this._router.navigate(['/books']);
   }
 }

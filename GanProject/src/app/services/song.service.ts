@@ -35,4 +35,15 @@ export class SongService {
         catchError(this._errorhandling.handleError<Song>(`getsong id=${id}`))
       );
   }
+  searchSong(value: string): Observable<Song[]> {
+    if (!value.trim) {
+      return of([]);
+    } else {
+      return this._http
+        .get<Song[]>(`${this.baseUrl}/?artist=${value}`)
+        .pipe(
+          catchError(this._errorhandling.handleError<Song[]>('searchsong', []))
+        );
+    }
+  }
 }

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Song } from '../../models/song';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-song-details',
   templateUrl: './song-details.component.html',
@@ -10,10 +10,17 @@ export class SongDetailsComponent implements OnInit {
   @Input() song?: Song;
   isshow: boolean = true;
   selectedSong!: Song;
-  constructor() {}
+  constructor(private _route: Router) {}
 
   ngOnInit(): void {}
   onSelect(song: Song): void {
     this.selectedSong = song;
+  }
+  goBack() {
+    if (this._route.url === '/home') {
+      this._route.navigate(['/songs']);
+    } else {
+      this._route.navigate(['/home']);
+    }
   }
 }

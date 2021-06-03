@@ -13,7 +13,8 @@ import { ButtonComponent } from './components/button/button.component';
 import { BookDetailsComponent } from './components/book-details/book-details.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SongDetailsComponent } from './components/song-details/song-details.component';
-import { SelectComponent } from './components/select/select.component';;
+import { Searchomponent } from './components/search/search.component';
+// import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,7 @@ import { SelectComponent } from './components/select/select.component';;
     BookDetailsComponent,
     PageNotFoundComponent,
     SongDetailsComponent,
-    SelectComponent,
+    Searchomponent,
   ],
   imports: [
     BrowserModule,

@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
     });
   }
   getId(id: number) {
-    this._route.navigate([`/bookdetail/${id}`]);
+    this._route.navigate([`/bookdetails/${id}`]);
   }
   songDetail(id: number) {
     this._route.navigate([`/songdetail`]);

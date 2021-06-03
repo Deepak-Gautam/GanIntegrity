@@ -56,8 +56,8 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 14,
-        title: "Beginner's Guide to Quilting",
-        authors: 'Elizabeth Betts',
+        title: 'Start Quilting',
+        authors: 'Alex Anderson',
         publisher: 'David & Charles',
         publishedDate: '2014-03-03',
         description:
@@ -72,8 +72,8 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 15,
-        title: "Beginner's Guide to Quilting",
-        authors: 'Elizabeth Betts',
+        title: 'Quilting Modern',
+        authors: 'Jacquie Gering',
         publisher: 'David & Charles',
         publishedDate: '2015-03-03',
         description:
@@ -88,7 +88,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 16,
-        title: "Beginner's Guide to Quilting",
+        title: 'The Thimbleberries Book of Quilts',
         authors: 'Elizabeth Betts',
         publisher: 'David & Charles',
         publishedDate: '2016-03-03',
@@ -104,7 +104,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 17,
-        title: "Beginner's Guide to Quilting",
+        title: 'Quilting Designs From The Past',
         authors: 'Elizabeth Betts',
         publisher: 'David & Charles',
         publishedDate: '2017-03-03',
@@ -120,7 +120,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 18,
-        title: "Beginner's Guide to Quilting",
+        title: 'The Ultimate Guide to Machine Quilting',
         authors: 'Elizabeth Betts',
         publisher: 'David & Charles',
         publishedDate: '2018-03-03',
@@ -136,8 +136,8 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 19,
-        title: "Beginner's Guide to Quilting",
-        authors: 'Elizabeth Betts',
+        title: 'Free-Motion Quilting for Beginners',
+        authors: 'Molly Hanson',
         publisher: 'David & Charles',
         publishedDate: '2019-03-03',
         description:
@@ -152,8 +152,8 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 20,
-        title: "Beginner's Guide to Quiltingtest",
-        authors: 'Elizabeth Betts',
+        title: 'Modern Quilting',
+        authors: 'Michael Caputo',
         publisher: 'David & Charles',
         publishedDate: '2020-03-03',
         description:
@@ -185,7 +185,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 2,
-        artist: 'Bon Jovfdfi',
+        artist: 'Young Thug',
         music: "Livin' on a prayer",
         album: 'This is for test',
         releasedDate: '2010-10-22',
@@ -197,12 +197,12 @@ export class InMemoryDataService implements InMemoryDataService {
         producers: 'Taylor Swift',
         writers: 'Alessandro Trincone',
         description:
-          'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
+          'Portrait shots can be iconic when done just right, and if there’s one artist who knows about iconic imagery, it’s Lady Gaga. For the re-release of her debut The Fame, Mother Monster -- framed by a white wig -- went black and white, rocking a shiny, angular coat that shrouded the lower half of her face. ',
       },
       {
         id: 3,
-        artist: 'Bon Jovi',
-        music: "Livin' on a prayer",
+        artist: 'Lady Gaga',
+        music: 'The Fame Monster',
         album: 'This is for test',
         releasedDate: '2010-10-22',
         Duration: '2.5 minutes',
@@ -217,7 +217,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 4,
-        artist: 'Bon Jovi',
+        artist: 'Janet Jackson',
         music: "Livin' on a prayer",
         album: 'This is for test',
         releasedDate: '2010-10-22',
@@ -233,7 +233,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 5,
-        artist: 'Bon Jovi',
+        artist: 'Funkadelic',
         music: "Livin' on a prayer",
         album: 'This is for test',
         releasedDate: '2010-10-22',
@@ -245,12 +245,12 @@ export class InMemoryDataService implements InMemoryDataService {
         producers: 'Taylor Swift',
         writers: 'Alessandro Trincone',
         description:
-          'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
+          'A screaming Barbara Cheeseborough (who was Essence’s first cover model) possesses the “maggot brain” in question on the cover of Parliament’s classic 1971 album of the same name. Buried up to her neck, the real twist comes when you turn the album over -- where her head is on the front, there’s a skull on the back.',
       },
       {
         id: 6,
-        artist: 'Bon Jovi',
-        music: "Livin' on a prayer",
+        artist: 'Cardi B',
+        music: 'Invasion of Privacy',
         album: 'This is for test',
         releasedDate: '2010-10-22',
         Duration: '2.5 minutes',
@@ -265,7 +265,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 7,
-        artist: 'Bon Jovi',
+        artist: 'Whitney Houston',
         music: "Livin' on a prayer",
         album: 'This is for test',
         releasedDate: '2010-10-22',
@@ -281,7 +281,7 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 8,
-        artist: 'Bon Jovi',
+        artist: 'Fleetwood Mac',
         music: "Livin' on a prayer",
         album: 'This is for test',
         Duration: '2.5 minutes',
@@ -297,24 +297,8 @@ export class InMemoryDataService implements InMemoryDataService {
       },
       {
         id: 9,
-        artist: 'Bon Jcxzcxczxcovi',
-        music: "Livin' on a prayer",
-        album: 'This is for test',
-        Duration: '2.5 minutes',
-        releasedDate: '2010-10-22',
-        success: true,
-        rating: 5,
-        composers: 'Bon Jovi',
-        genere: 'Rock',
-        producers: 'Taylor Swift',
-        writers: 'Alessandro Trincone',
-        description:
-          'Few rappers played more convincingly or compellingly with either identity or gender over the course of the 2010s as Young Thug. ',
-      },
-      {
-        id: 10,
-        artist: 'Bon Jocxcvi',
-        music: "Livin' on a prayer",
+        artist: 'Nicki Minaj',
+        music: 'The Pinkprint',
         album: 'This is for test',
         Duration: '2.5 minutes',
         releasedDate: '2010-10-22',

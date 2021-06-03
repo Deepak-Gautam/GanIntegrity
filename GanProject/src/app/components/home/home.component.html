@@ -1,5 +1,6 @@
 <section class="latest-book-list">
     <div class="container">
+        <app-search></app-search>
         <h3 class="text-center">Books List</h3>
         <div class="row">
             <div class="col-sm-4 mt-2" *ngFor="let book of bookList" id="list-values">
@@ -47,7 +48,7 @@
     </div>
 </section>
 <section class="song-detail">
-    <app-song-details [song]="selectedSong" >
+    <app-song-details [song]="selectedSong">
     </app-song-details>
 
 </section>
